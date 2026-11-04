@@ -1,0 +1,20 @@
+#include<stdio.h>
+void  middlenumber(){
+    int n1,n2,n3;
+    printf("enter numbers:");
+    scanf("%d %d %d", &n1, &n2, &n3);
+    if(n1>n2&&n1<n3){
+        printf("%d",n1);
+    }
+    if(n2>n1&&n2<n3){
+        printf("%d",n2);
+    }
+    if(n3>n1&&n3<n2){
+        printf("%d",n3);
+
+    }
+}
+int main(){
+    middlenumber();
+    return 0;
+}
